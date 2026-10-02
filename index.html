@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sky 1 Vision Machine Services Limited — procurement, engineering, facility management, renewable energy, IT, security systems, furniture, automotive and general contracting solutions.">
+<title>Sky 1 Vision Machine Services Limited</title>
+<style>
+:root{--navy:#071a33;--blue:#0b63ce;--gold:#f2b632;--light:#f5f8fc;--text:#182433;--muted:#607087;--white:#fff;--line:#dfe7f1}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6;background:#fff}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(7,26,51,.97);color:white;border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.3px}
+.logo-mark{width:42px;height:42px;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-size:13px;font-weight:900}
+.logo span{display:block}.logo small{font-size:10px;color:#b8c6d8;font-weight:500}
+nav{display:flex;gap:22px;align-items:center}
+nav a{font-size:14px;color:#dfe9f5} nav a:hover{color:var(--gold)}
+.menu{display:none;font-size:25px}
+.hero{background:linear-gradient(120deg,rgba(7,26,51,.98),rgba(11,99,206,.82)),url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=80") center/cover;color:white;padding:105px 0 95px}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.kicker{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.05;margin:14px 0 20px}
+.hero p{font-size:19px;color:#e4edf8;max-width:720px}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{padding:13px 21px;border-radius:6px;font-weight:800;display:inline-block}
+.btn-primary{background:var(--gold);color:#111}.btn-outline{border:1px solid rgba(255,255,255,.5);color:#fff}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:28px;border-radius:12px;backdrop-filter:blur(8px)}
+.hero-card h3{margin-bottom:15px}.hero-card li{list-style:none;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:14px}
+section{padding:85px 0}.light{background:var(--light)}
+.section-head{text-align:center;max-width:760px;margin:0 auto 45px}
+.section-head .kicker{color:var(--blue)}
+h2{font-size:38px;line-height:1.15;margin:10px 0 14px;color:var(--navy)}
+.section-head p{color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-box{background:var(--navy);color:#fff;border-radius:14px;padding:38px}
+.about-box .big{font-size:50px;font-weight:900;color:var(--gold);line-height:1}
+.about-box p{color:#d7e2ef;margin-top:10px}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+.check{background:#fff;border:1px solid var(--line);padding:14px;border-radius:8px;font-weight:700;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);padding:27px;border-radius:12px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(10,35,70,.09)}
+.icon{width:46px;height:46px;border-radius:10px;background:#eaf3ff;color:var(--blue);display:grid;place-items:center;font-weight:900;margin-bottom:18px}
+.card h3{color:var(--navy);margin-bottom:8px}.card p{color:var(--muted);font-size:14px}
+.pills{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.pill{border:1px solid var(--line);background:#fff;padding:12px 16px;border-radius:30px;font-weight:700;color:#31435a}
+.reg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.reg{background:#fff;padding:20px;border-left:4px solid var(--gold);border-radius:7px;box-shadow:0 4px 15px rgba(10,35,70,.05)}
+.reg strong{display:block;color:var(--navy);font-size:14px}.reg span{font-family:monospace;color:var(--blue);font-size:13px}
+.cta{background:var(--navy);color:#fff}.cta h2{color:#fff}.cta p{color:#cfdae7}
+.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px}
+.contact-info{display:grid;gap:14px}
+.contact-item{background:#fff;padding:20px;border:1px solid var(--line);border-radius:9px}
+.contact-item b{display:block;color:var(--navy);margin-bottom:3px}.contact-item span{color:var(--muted);font-size:14px}
+form{background:#fff;padding:28px;border-radius:12px;border:1px solid var(--line)}
+input,textarea{width:100%;padding:13px;border:1px solid #ccd7e4;border-radius:6px;margin:7px 0 14px;font:inherit}
+textarea{min-height:130px;resize:vertical}
+footer{background:#041225;color:#b8c6d8;padding:28px 0;font-size:13px}
+.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){nav{display:none}.menu{display:block}.hero-grid,.about,.contact{grid-template-columns:1fr}.grid,.reg-grid{grid-template-columns:1fr 1fr}.hero{padding:75px 0}}
+@media(max-width:550px){.grid,.reg-grid,.checks{grid-template-columns:1fr}section{padding:60px 0}h2{font-size:31px}.hero{padding:65px 0}}
+</style>
+
+<meta name="author" content="Adigun Oyetunde Iyiola, CEO, Sky 1 Vision Machine Services Limited">
+<meta name="keywords" content="Sky 1 Vision Machine Services Limited, procurement, engineering, facility management, renewable energy, Nigeria, Ibadan, Ariba Network, UN Vendor, SAM UEI, NCAGE">
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#home"><div class="logo-mark">S1V</div><div><span>SKY 1 VISION</span><small>MACHINE SERVICES LIMITED</small></div></a>
+<nav>
+<a href="#about">About</a><a href="#services">Services</a><a href="#sectors">Sectors</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a>
+</nav>
+<div class="menu">☰</div>
+</div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="kicker">Procurement • Engineering • Technology</div>
+<h1>Solutions that move business forward.</h1>
+<p>Sky 1 Vision Machine Services Limited delivers dependable procurement, engineering, facility management, renewable energy, technology, security, furniture, automotive and general contracting solutions.</p>
+<div class="btns"><a class="btn btn-primary" href="#contact">Request a Quote</a><a class="btn btn-outline" href="#services">Explore Services</a></div>
+</div>
+<div class="hero-card">
+<h3>Why Sky 1 Vision?</h3>
+<ul>
+<li>Professional procurement & sourcing</li><li>Multi-sector technical capability</li><li>Quality-focused project delivery</li><li>Local and international supplier network</li><li>Customer-focused after-sales support</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container about">
+<div>
+<div class="kicker">About the Company</div><h2>Built for reliable delivery.</h2>
+<p>Sky 1 Vision Machine Services Limited is a Nigerian company providing integrated procurement, engineering and business support solutions to organizations across multiple sectors.</p>
+<p style="margin-top:14px">Incorporated under Nigerian law on 28 January 2015, the company combines commercial sourcing experience with practical project execution and supplier coordination.</p>
+<div class="checks"><div class="check">✓ Integrity & Accountability</div><div class="check">✓ Quality Assurance</div><div class="check">✓ Professional Service</div><div class="check">✓ Reliable Delivery</div></div>
+<div style="margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:9px;background:#fff">
+<strong style="color:var(--navy)">Adigun Oyetunde Iyiola</strong><br>
+<span style="color:var(--muted)">Chief Executive Officer (CEO)</span><br>
+<a href="http://discovery.ariba.com/profile/AN01748625042" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Find us on Ariba Network →</a>
+</div>
+</div>
+<div class="about-box"><div class="big">2015</div><p>Year incorporated</p><hr style="border:0;border-top:1px solid #29405e;margin:24px 0"><div class="big" style="font-size:28px">RC 1238432</div><p>Corporate registration reference</p><hr style="border:0;border-top:1px solid #29405e;margin:24px 0"><p><b style="color:#fff">Mission:</b> Provide world-class products and services through professionalism, innovation, integrity and customer-focused solutions.</p></div>
+</div>
+</section>
+
+<section id="services" class="light">
+<div class="container"><div class="section-head"><div class="kicker">Our Services</div><h2>Integrated business solutions</h2><p>From sourcing and supply to technical support and project delivery.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">01</div><h3>General Procurement</h3><p>Product sourcing, vendor coordination, quotations, supply and delivery for institutional and commercial requirements.</p></div>
+<div class="card"><div class="icon">02</div><h3>Engineering Services</h3><p>Engineering support, equipment supply, installation coordination and maintenance solutions.</p></div>
+<div class="card"><div class="icon">03</div><h3>Facility Management</h3><p>Facilities support, equipment, maintenance coordination and operational supplies.</p></div>
+<div class="card"><div class="icon">04</div><h3>Renewable Energy</h3><p>Solar equipment, power solutions, energy systems and related supply support.</p></div>
+<div class="card"><div class="icon">05</div><h3>IT & Technology</h3><p>Technology products, computing equipment, infrastructure and business technology solutions.</p></div>
+<div class="card"><div class="icon">06</div><h3>Security Systems</h3><p>Security technology, surveillance and related systems supply and support.</p></div>
+<div class="card"><div class="icon">07</div><h3>Furniture Solutions</h3><p>Office and institutional furniture sourcing, supply and project requirements.</p></div>
+<div class="card"><div class="icon">08</div><h3>Automotive</h3><p>Automotive sourcing and vehicle-related procurement support.</p></div>
+<div class="card"><div class="icon">09</div><h3>General Contracting</h3><p>Coordinated supply and contracting support for diverse commercial and institutional projects.</p></div>
+</div></div>
+</section>
+
+<section id="sectors">
+<div class="container"><div class="section-head"><div class="kicker">Industries & Clients</div><h2>Ready for complex procurement environments</h2><p>Our capability is suited to public, private, development and institutional procurement requirements.</p></div>
+<div class="pills"><div class="pill">Government & Public Sector</div><div class="pill">International Organizations</div><div class="pill">Development Partners</div><div class="pill">Corporate Organizations</div><div class="pill">Facilities & Infrastructure</div><div class="pill">Energy & Technology</div><div class="pill">Automotive</div><div class="pill">Office & Institutional Supply</div></div>
+</div>
+</section>
+
+<section id="credentials" class="light">
+<div class="container"><div class="section-head"><div class="kicker">Corporate Credentials</div><h2>International procurement readiness</h2><p>Selected registrations and identifiers supplied by the company.</p></div>
+<div class="reg-grid">
+<div class="reg"><strong>United Nations — Vendor ID</strong><span>471140</span></div>
+<div class="reg"><strong>SAM — Unique Entity ID (UEI)</strong><span>H8JHRBKNJ9E5</span></div>
+<div class="reg"><strong>DUNS / UEI</strong><span>561348263</span></div>
+<div class="reg"><strong>NATO / NCAGE / CAGE</strong><span>SGNG4</span></div>
+<div class="reg"><strong>Primary NAICS</strong><span>561613</span></div>
+<div class="reg"><strong>DTVP Deutsches GmbH — Global I.R.N.</strong><span>CX210D5610D56</span></div>
+<div class="reg"><strong>Ariba Network Profile</strong><span>AN01748625042</span></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container"><div class="section-head"><div class="kicker">Product & Brand Coverage</div><h2>Multi-category sourcing capability</h2><p>Selected brands and product categories previously supplied by the company.</p></div>
+<div class="pills">
+<div class="pill">LG</div><div class="pill">Hisense</div><div class="pill">Jinko Solar</div><div class="pill">Deye</div><div class="pill">Huawei</div><div class="pill">Growatt</div><div class="pill">Actiu</div><div class="pill">ROX Automobile</div><div class="pill">Dongfeng Automobile</div>
+</div></div>
+</section>
+
+<section class="cta" id="contact">
+<div class="container"><div class="section-head"><div class="kicker">Contact Sky 1 Vision</div><h2>Let's discuss your next requirement.</h2><p>Use the form below to prepare an enquiry. Replace the contact placeholders with your official company email and telephone before publishing.</p></div>
+<div class="contact">
+<div class="contact-info">
+<div class="contact-item"><b>Company</b><span>Sky 1 Vision Machine Services Limited</span></div>
+<div class="contact-item"><b>Registration</b><span>RC 1238432 • Incorporated 28 January 2015</span></div>
+<div class="contact-item"><b>Office Address</b><span>Block C, Industrial Training Centre – NTC Complex, Oyo State Small Scale Industries – New GRA Leaf Road, Iyaganku, Ibadan, Oyo 200261, Nigeria</span></div>
+<div class="contact-item"><b>Postal Address</b><span>Postal Box 40926, Dugbe, Ibadan, Oyo State, Nigeria</span></div>
+<div class="contact-item"><b>Telephone</b><span><a href="tel:+2347033046699">+234 703 304 6699</a></span></div>
+<div class="contact-item"><b>Business WhatsApp</b><span><a href="https://wa.me/2348070555587">+234 807 055 5587</a></span></div>
+<div class="contact-item"><b>Email</b><span><a href="mailto:sky1visionms.limited@africamail.com">sky1visionms.limited@africamail.com</a><br><a href="mailto:sky1visionmsltd@gmail.com">sky1visionmsltd@gmail.com</a></span></div>
+</div>
+<form action="mailto:sky1visionmsltd@gmail.com" method="post" enctype="text/plain">
+<label>Name</label><input name="name" required>
+<label>Email</label><input type="email" name="email" required>
+<label>Company / Organization</label><input name="company">
+<label>Requirement</label><textarea name="message" placeholder="Tell us what you need..."></textarea>
+<button class="btn btn-primary" type="submit" style="border:0;cursor:pointer">Send Enquiry</button>
+</form>
+</div></div>
+</section>
+</main>
+
+<footer><div class="container footer"><div>© 2026 Sky 1 Vision Machine Services Limited. All rights reserved.</div><div>Procurement • Engineering • Technology • General Contracting</div></div></footer>
+</body>
+</html>
